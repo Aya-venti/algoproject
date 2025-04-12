@@ -47,45 +47,7 @@ Threading: The server handles multiple clients concurrently using threads.
 
 Vote Recording: Successfully records votes in memory.
 
-How to Run
-1. Clone the Repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/voting-system.git
-cd voting-system
-2. Build the Server and Client:
-On Windows (Using Visual Studio or Command Prompt)
-Compile the server and client source files.
-
-Run the server in one terminal:
-
-bash
-Copy
-Edit
-./server
-Run the client in another terminal:
-
-bash
-Copy
-Edit
-./client
 3. Configuration
 Ensure both server and client are using the same IP and port.
 
 Modify PORT and SERVER_ADDRESS if necessary.
-
-Contributing
-Feel free to open issues or submit pull requests for any improvements or bugs you find. Contributions are always welcome!
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Additional Sections for GitHub
-You can include sections like:
-
-Installation Instructions: Explain the steps to set up the development environment, including dependencies.
-
-Testing: Provide details on how you plan to test the system, or any testing frameworks you're using.
-
-Future Improvements: Outline additional features you plan to implement, such as security, database integration, or a user interface.
